@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page with CSS</title>
+    <style>
+        /* i. Set the background color for the hover and active link states to "green" */
+        a:hover, a:active {
+            background-color: green;
+        }
+
+        /* ii. Set the list style for unordered lists to "square" */
+        ul {
+            list-style-type: square;
+        }
+
+        /* iii. Set "Flower.png" as the background image of the page */
+        body {
+            background-image: url('Flower.png');
+            background-size: cover; /* Optional: Cover the entire page */
+            background-repeat: no-repeat; /* Optional: Prevent the image from repeating */
+        }
+
+        /* iv. Set dashed border for left and right, and double border for top and bottom of a table */
+        table {
+            border-left: 2px dashed black;
+            border-right: 2px dashed black;
+            border-top: 4px double black;
+            border-bottom: 4px double black;
+            border-collapse: collapse; /* Ensures border styles are combined */
+            width: 50%; /* Optional: Sets table width */
+            margin: 20px auto; /* Optional: Centers the table */
+        }
+
+        /* Styling for table cells */
+        td {
+            border: 1px solid black; /* Adds a solid border to table cells */
+            padding: 10px; /* Adds padding inside table cells */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Styled Page</h1>
+    <p>This is an example paragraph with a <a href="#">link</a> to demonstrate hover and active states.</p>
+
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+
+    <table>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
